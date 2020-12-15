@@ -15,6 +15,7 @@ from itertools import (permutations, combinations, chain, cycle, product, islice
                        takewhile, zip_longest, count as count_from)
 from heapq import heappop, heappush
 from numba import jit
+from dataclasses import dataclass
 
 # ### CONSTANTS
 
